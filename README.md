@@ -1,2 +1,4 @@
 # PersonalVersionControl
 Personal Version Control (PVC) uses standard file system and Python scripts to provide transparent version control that requires no setup yet can support complex projects comprising sub-projects, each with its own version group. It has two flavors, backup, which stores all files in each version, and delta, which stores only changed files.
+
+The pvc.zip archive contains bv.py, the backup flavor, and dv.py, the delta. These are installed simply by copying them into an exe-path directory. The archive includes PersonalVersionControl.odt, which serves as a user guide and program design document. It also includes additional Python scripts that are used for regression testing of bv.py and dv.py and coincidentally provide examples of how all of the features work. All scripts are released under GNU General Public License version 3 and work in both Windows and Linux.
